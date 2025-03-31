@@ -9,11 +9,11 @@ const Footer = () => {
         <footer className="main__content">
             <div className="main__content-initial">
             <div className='initial__img'>
-               <img src={miauland} alt="Miauland" />
+               <img src={miauland} alt="Miauland" className='img-logo'/>
             </div>
             <div className='initial__text'>
-              <p>Copyright © 2025-2026  MIAULAND | Todas las marcas e imágenes mencionados son propiedad de sus dueños.</p>
-              <p>Diseñado por: Aloga Software Solutions S.A. de C.V.</p>
+              <p>Copyright © 2025-2026  <b>MIAULAND</b> | Todas las marcas e imágenes mencionados son propiedad de sus dueños.</p>
+              <p><b>Diseñado por:</b> Aloga Software Solutions S.A. de C.V.</p>
             </div>
 
             </div>
