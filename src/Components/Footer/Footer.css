@@ -1,0 +1,20 @@
+.initial__text{
+
+}
+.main__content-initial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+.initial__text{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 16px;
+}
+/* .initial__img{
+    width: 100px;
+    height: 100px;
+} */
