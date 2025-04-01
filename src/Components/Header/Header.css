@@ -1,18 +1,24 @@
-
-
 .header {
     width: 100%;
     height: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     padding: 20px;
     background-color: #f8f9fa;
 }
 
+.header__top-bar{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header__logo {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+    color: #ff0000;
 }
 
 .header__nav-list {
@@ -22,7 +28,7 @@
 }
 
 .header__nav-list li {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     color: #000000;
 }
@@ -34,4 +40,69 @@
 .header__nav-list li a {
     text-decoration: none;
     color: inherit;
+}
+
+/* --------------------------Responsive.-------------------------- */
+
+/* Smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media (min-width: 320px) {
+    .header__nav-list li {
+        font-size: 10px;
+    }
+}
+
+/* Smartphones, Android phones, landscape iPhone */
+@media (min-width: 480px) {
+    .header__nav-list li {
+        font-size: 11px;
+    }
+}
+
+/* Portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (min-width: 600px) {
+    .header__nav-list li {
+        font-size: 12px;
+    }
+}
+
+/* Tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width: 800px) {
+    .header__nav-list li {
+        font-size: 13px;
+    }
+}
+
+/* Big landscape tablets, laptops, and desktops */
+@media (min-width: 1025px) {
+    .header__nav-list li {
+        font-size: 14px;
+    }
+}
+
+/* hi-res laptops and desktops */
+@media (min-width: 1281px) {
+    .header__nav-list li {
+        font-size: 15px;
+    }
+}
+
+/* Large desktops (1920px and above) */
+@media (min-width: 1920px) {
+    .header__nav-list li {
+        font-size: 16px;
+    }
+}
+
+/* Ultra-wide desktops (2560px and above) */
+@media (min-width: 2560px) {
+    .header__nav-list li {
+        font-size: 17px;
+    }
+}
+
+/* 4K screens (3840px and above) */
+@media (min-width: 3840px) {
+    .header__nav-listW li {
+        font-size: 18px;
+    }
 }
