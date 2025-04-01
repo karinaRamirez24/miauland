@@ -73,7 +73,7 @@ function Header() {
     return (
         <header className="header">
             <div className='header__top-bar'>
-                <a href=""><MiaulandLogo color = "#4E4E4E" size={50} /></a>
+                <a href=""><MiaulandLogo className='logoprueba' /></a>
                 <nav className="header__nav">
                     <ul className='header__nav-list'>
                         <li><a href="#adopciones">Adopciones</a></li>
