@@ -1,5 +1,5 @@
-const MiaulandLogo = ({ className = "" }) => (
-    <svg
+const Miauland = ({ className = "" }) => (
+    <svg 
         className={`miauland-logo ${className}`}
         viewBox="0 0 426.87 424.51"
         xmlns="http://www.w3.org/2000/svg"
@@ -14,4 +14,4 @@ const MiaulandLogo = ({ className = "" }) => (
     </svg>
 );
 
-export default MiaulandLogo;
+export default Miauland
