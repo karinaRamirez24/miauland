@@ -1,9 +1,15 @@
-import React from 'react'
-import "./Home.css"
+import React from "react";
+import "./Home.css";
+import MainImage from "../../Components/MainImage/MainImage";
+import imageHome from "../../Assets/imagenes/catFlower.jpg";
 const Home = () => {
-  return (
-    <div className='content-initial'>Home Page</div>
-  )
-}
+    return (
+        <div className="content-initial">
+            <div>
+                <MainImage ruta={imageHome} textoPrincipal={"Miauland"} subtitulo={"Bienvenido a Miauland"}/>
+            </div>
+        </div>
+    );
+};
 
-export default Home
+export default Home;

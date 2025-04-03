@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import miauland from "../../Assets/imagenes/Miauland.png";
+import MiaulandLogo from "../../Assets/Icons/Miauland";
 
 const Footer = () => {
     return (
@@ -8,7 +8,7 @@ const Footer = () => {
             <footer className="main__content">
                 <div className="main__content-initial">
                     <div className="initial__img">
-                        <img src={miauland} alt="Miauland" className="img-logo" />
+                       <MiaulandLogo className="img-logo" />
                     </div>
                     <div className="initial__text">
                         <h4 className="text__main">

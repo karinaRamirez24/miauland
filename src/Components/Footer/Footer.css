@@ -7,6 +7,9 @@
     background-color: aliceblue;
     font-weight: normal;
 }
+.img-logo{
+    fill: #656565;
+}
 
 @media (min-width: 320px) {
     .main__content-initial {
