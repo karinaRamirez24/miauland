@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import MainImage from "../../Components/MainImage/MainImage";
-import imageHome from "../../Assets/imagenes/catFlower.jpg";
+import imageHome from "../../Assets/imagenes/catHome.png";
 const Home = () => {
     return (
         <div className="content-initial">
