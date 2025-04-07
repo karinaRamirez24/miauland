@@ -36,6 +36,8 @@
 
 .header__nav-list {
     display: flex;
+    align-items: center;
+    justify-content: center;
     list-style: none;
     gap: 20px;
 }
@@ -53,9 +55,10 @@
 }
 
 .header__nav-list li:hover {
-    font-weight: 600px;
-    text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000, 0 0 20px #000000, 0 0 25px #000000, 0 0 30px #000000, 0 0 35px #000000;
-    transition: all 0.3s ease-in-out;
+    font-weight: 750;
+    color: #ffffff;
+    
+    transition: all 0.4s ease-in-out;
 }
 
 .header__nav-list li a {
@@ -335,37 +338,9 @@
 }
 
 
-/* TODO: eliominacion de esta animacion */
-
-@keyframes scale-up-horizontal-left {
-    0% {
-        transform: scaleX(.4);
-        transform-origin: left center
-    }
-
-    100% {
-        transform: scaleX(1);
-        transform-origin: left center
-    }
-}
-
-@keyframes slide-right {
-    0% {
-        transform: translateX(-100%)
-    }
-
-    100% {
-        transform: translateX(0)
-    }
-}
 
 
 
-
-
-.blur-in-expand {
-    animation: blur-in-expand 0.4s linear both
-}
 
 @keyframes blur-in-expand {
     0% {

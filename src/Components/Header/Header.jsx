@@ -17,7 +17,7 @@ function Header() {
                     dropdownMenuRef.current.style.display = "none";
                 if (topBarRef.current) {
                     topBarRef.current.style.height = "auto";
-                    // topBarRef.current.style.background = "rgba(0, 0, 0, 0.35)";
+                    // topBarRef.current.style.background = "transparent";
                 }
                 if (menuButtonRef.current) {
                     menuButtonRef.current.innerHTML = `<box-icon name="menu" color="#ffffff" id="header__button--menu" style="width: 42px; height: 42px;"></box-icon>`;
