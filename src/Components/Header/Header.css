@@ -1,18 +1,18 @@
 .header {
     width: 100%;
-    height: 60px;
+    height: 70px;
     display: flex;
     position: fixed;
-    z-index: 3;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     padding: 20px;
     background-color: transparent;
 }
 
-.header__top-bar{
+.header__top-bar {
     width: 85%;
     display: flex;
+    z-index: 3;
     justify-content: space-between;
     align-items: center;
 }
@@ -23,14 +23,15 @@
     display: flex;
 }
 
-.header__icon{
-    color: #575756;
+.header__icon {
+    color: #ffffff;
 }
 
 .header__logo {
     width: 50px;
     height: 50px;
-    fill: #5600b9; 
+    fill: #ffffff;
+
 }
 
 .header__nav-list {
@@ -42,7 +43,7 @@
 .header__nav-list li {
     font-size: 16px;
     font-weight: 500;
-    color: #000000;
+    color: #ffffff8c;
 }
 
 .header__menu-button {
@@ -52,7 +53,9 @@
 }
 
 .header__nav-list li:hover {
-    filter: invert(75%);
+    font-weight: 600px;
+    text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000, 0 0 20px #000000, 0 0 25px #000000, 0 0 30px #000000, 0 0 35px #000000;
+    transition: all 0.3s ease-in-out;
 }
 
 .header__nav-list li a {
@@ -62,11 +65,13 @@
 
 .header__dropdown-menu {
     position: absolute;
-    top: 60px;
+    top: 70px;
     left: 0;
     height: 100vh;
     background-color: #dedede6b;
     backdrop-filter: blur(4px);
+    z-index: 3;
+    width: 80%;
 }
 
 .header__expanded-menu-link {
@@ -80,61 +85,108 @@
     font-size: 30px;
     padding: 20px 20px;
     font-weight: 500;
+    display: flex;
+    justify-content: start;
+    background-color: #ffffffc4;
+    border-radius: 10px;
+    margin: 20px 20px;
+    animation: slide-right 0.4s linear both
+}
+
+.header__expanded-menu-item:hover {
+    background-color: #dedede6b;
+}
+
+.header__expanded-menus li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header__expanded-menu-a {
+    font-size: 20px;
+    margin-left: 20px;
+    color: #575756;
+}
+
+#header_button--close--menu {
+    animation: rotate-center 0.4s;
+}
+
+#header__button--menu {
+    animation: rotate-horizontal-center 0.4s;
 }
 
 /* --------------------------Responsive.-------------------------- */
 
 /* Smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 @media (min-width: 320px) {
-    
+
     .header__nav-list li {
-        font-size: 10px;
+        font-size: 12px;
     }
+
     .header__logo {
         width: 42px;
         height: 42px;
     }
+
     .header__logo-container {
         order: 1;
     }
+
     .header__menu-button {
         display: block;
         order: 0;
     }
+
     .header__nav-list {
         display: none;
+    }
+
+    .header__dropdown-menu {
+        width: 70%;
     }
 }
 
 /* Smartphones, Android phones, landscape iPhone */
 @media (min-width: 480px) {
     .header__nav-list li {
-        font-size: 11px;
+        font-size: 13px;
     }
+
     .header__logo-container {
         order: 1;
     }
+
     .header__menu-button {
         display: block;
         order: 0;
     }
+
     .header__nav-list {
         display: none;
+    }
+
+    .header__dropdown-menu {
+        width: 65%;
     }
 }
 
 /* Portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 @media (min-width: 600px) {
     .header__nav-list li {
-        font-size: 12px;
+        font-size: 14px;
     }
+
     .header__logo-container {
         order: 1;
     }
+
     .header__menu-button {
         display: block;
         order: 0;
     }
+
     .header__nav-list {
         display: none;
     }
@@ -143,15 +195,18 @@
 /* Tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width: 800px) {
     .header__nav-list li {
-        font-size: 13px;
+        font-size: 15px;
     }
+
     .header__logo-container {
         order: 1;
     }
+
     .header__menu-button {
         display: block;
         order: 0;
     }
+
     .header__nav-list {
         display: none;
     }
@@ -160,15 +215,17 @@
 /* Big landscape tablets, laptops, and desktops */
 @media (min-width: 1025px) {
     .header__nav-list li {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .header__menu-button {
         display: none;
     }
+
     .header__logo-container {
         order: 0;
     }
+
     .header__nav-list {
         display: flex;
         order: 1;
@@ -178,14 +235,17 @@
 /* hi-res laptops and desktops */
 @media (min-width: 1281px) {
     .header__nav-list li {
-        font-size: 15px;
+        font-size: 17px;
     }
+
     .header__menu-button {
         display: none;
     }
+
     .header__logo-container {
         order: 0;
     }
+
     .header__nav-list {
         display: flex;
         order: 1;
@@ -195,14 +255,17 @@
 /* Large desktops (1920px and above) */
 @media (min-width: 1920px) {
     .header__nav-list li {
-        font-size: 16px;
+        font-size: 18px;
     }
+
     .header__menu-button {
         display: none;
     }
+
     .header__logo-container {
         order: 0;
     }
+
     .header__nav-list {
         display: flex;
         order: 1;
@@ -212,14 +275,17 @@
 /* Ultra-wide desktops (2560px and above) */
 @media (min-width: 2560px) {
     .header__nav-list li {
-        font-size: 17px;
+        font-size: 19px;
     }
+
     .header__menu-button {
         display: none;
     }
+
     .header__logo-container {
         order: 0;
     }
+
     .header__nav-list {
         display: flex;
         order: 1;
@@ -229,17 +295,88 @@
 /* 4K screens (3840px and above) */
 @media (min-width: 3840px) {
     .header__nav-listW li {
-        font-size: 18px;
+        font-size: 20px;
     }
+
     .header__menu-button {
         display: none;
     }
+
     .header__logo-container {
         order: 0;
     }
+
     .header__nav-list {
         display: flex;
         order: 1;
     }
 }
 
+/* --------------------------Animations--------------------------- */
+
+@keyframes rotate-center {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-horizontal-center {
+    0% {
+        transform: rotateX(0);
+    }
+
+    100% {
+        transform: rotateX(-360deg);
+    }
+}
+
+
+/* TODO: eliominacion de esta animacion */
+
+@keyframes scale-up-horizontal-left {
+    0% {
+        transform: scaleX(.4);
+        transform-origin: left center
+    }
+
+    100% {
+        transform: scaleX(1);
+        transform-origin: left center
+    }
+}
+
+@keyframes slide-right {
+    0% {
+        transform: translateX(-100%)
+    }
+
+    100% {
+        transform: translateX(0)
+    }
+}
+
+
+
+
+
+.blur-in-expand {
+    animation: blur-in-expand 0.4s linear both
+}
+
+@keyframes blur-in-expand {
+    0% {
+        transform: scale(0);
+        filter: blur(12px);
+        opacity: 0
+    }
+
+    100% {
+        transform: scale(1);
+        filter: blur(0);
+        opacity: 1
+    }
+}

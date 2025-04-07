@@ -8,7 +8,7 @@ const MainImage = ({ ruta, textoPrincipal, subtitulo }) => {
                 <h1 className="textMain">{textoPrincipal}</h1>
             </div>
             <div className="overlaySecond">
-                <h2 className="textSecond">{subtitulo}</h2>
+                <h3 className="textSecond">{subtitulo}</h3>
             </div>
         </div>
     );

@@ -1,15 +1,15 @@
-import "./index.css";
 import "boxicons";
+import "./index.css";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./Components/Header/Header.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import AboutUs from "./Pages/AboutUs/AboutUs.jsx";
 import Home from "./Pages/Home/Home.jsx";
-import ContactUs from "./Pages/ContactUs/ContactUs.jsx";
 import Adoptions from "./Pages/Adoptions/Adoptions.jsx";
 import Donations from "./Pages/Donations/Donations.jsx";
+import AboutUs from "./Pages/AboutUs/AboutUs.jsx";
+import ContactUs from "./Pages/ContactUs/ContactUs.jsx";
 
 createRoot(document.getElementById("root")).render(
     <StrictMode>
