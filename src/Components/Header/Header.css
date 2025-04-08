@@ -57,7 +57,7 @@
 .header__nav-list li:hover {
     font-weight: 750;
     color: #ffffff;
-    
+
     transition: all 0.4s ease-in-out;
 }
 
@@ -146,6 +146,15 @@
         display: none;
     }
 
+    .header__expanded-menu-a {
+        font-size: 14px;
+    }
+
+    .header__dropdown-icon {
+        width: 22px !important;
+        height: 22px !important;
+    }
+
     .header__dropdown-menu {
         width: 70%;
     }
@@ -170,6 +179,15 @@
         display: none;
     }
 
+    .header__expanded-menu-a {
+        font-size: 17px;
+    }
+
+    .header__dropdown-icon {
+        width: 25px !important;
+        height: 25px !important;
+    }
+
     .header__dropdown-menu {
         width: 65%;
     }
@@ -188,6 +206,15 @@
     .header__menu-button {
         display: block;
         order: 0;
+    }
+
+    .header__expanded-menu-a {
+        font-size: 20px;
+    }
+
+    .header__dropdown-icon {
+        width: 27px !important;
+        height: 27px !important;
     }
 
     .header__nav-list {
@@ -209,6 +236,16 @@
         display: block;
         order: 0;
     }
+
+    .header__expanded-menu-a {
+        font-size: 23px;
+    }
+
+    .header__dropdown-icon {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
 
     .header__nav-list {
         display: none;

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./ContactUs.css"
-import imageHome from "../../Assets/imagenes/adoptionsThree.png";
+import imageHome from "../../Assets/imagenes/catFlower.jpg";
 import MainImage from '../../Components/MainImage/MainImage';
 
 const ContactUs = () => {

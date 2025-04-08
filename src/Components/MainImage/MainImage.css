@@ -59,8 +59,8 @@
     }
     
     .overlaySecond {
-        width: 70%;
-        top: 250px;
+        width: 75%;
+        top: 240px;
     }
 }
 
@@ -68,6 +68,10 @@
 @media (min-width: 480px) {
     .textMain {
         font-size: 54px;
+    }
+
+    .imageMain {
+        height: 500px;
     }
 
     .textSecond {
@@ -79,6 +83,10 @@
 @media (min-width: 600px) {
     .textMain {
         font-size: 63px;
+    }
+
+    .imageMain {
+        height: 550px;
     }
 
     .textSecond {
