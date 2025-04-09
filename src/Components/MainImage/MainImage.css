@@ -1,170 +1,196 @@
 .imageMain {
-    width: 100%;
-    height: 700px;
-    object-fit: cover;
-    position: relative;
-    z-index: -1;
-    filter: brightness(0.68) saturate(1.7);
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
+  filter: brightness(0.68) saturate(1.7);
 }
 
 .overlay {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    height: 10%;
-    z-index: -1;
-    color: white;
+  position: absolute;
+  top: 25%;
+  left: 8%;
+  height: 10%;
+  z-index: -1;
+  color: white;
 }
 
 .textMain {
-    font-size: 100px;
-}
-
-.overlaySecond {
-    width: 40%;
-    left: 8%;
-    position: absolute;
-    top: 45%;
-    height: 15%;
-    z-index: -1;
-    transform: translateY(-50%);
+  font-size: 100px;
 }
 
 .textSecond {
-    padding-top: 24px;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 1.1;
-    color: white;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 80%;
+  color: white;
 }
 
 /* --------------------------Responsive.-------------------------- */
 
 /* Smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 @media (min-width: 320px) {
-    .textMain {
-        font-size: 45px;
-    }
+  .textMain {
+    font-size: 45px;
+  }
 
-    .textSecond {
-        font-size: 14px;
-    }
+  .textSecond {
+    font-size: 14px;
+  }
 
-    .imageMain {
-        height: 450px;
-    }
+  .imageMain {
+    height: 450px;
+  }
 
-    .overlay {
-        top: 140px;
-    }
-    
-    .overlaySecond {
-        width: 75%;
-        top: 240px;
-    }
+  .overlay {
+    top: 140px;
+  }
 }
 
 /* Smartphones, Android phones, landscape iPhone */
 @media (min-width: 480px) {
-    .textMain {
-        font-size: 54px;
-    }
+  .textMain {
+    font-size: 54px;
+  }
 
-    .imageMain {
-        height: 500px;
-    }
+  .imageMain {
+    height: 500px;
+  }
 
-    .textSecond {
-        font-size: 17px;
-    }
+  .overlay {
+    top: 160px;
+  }
+
+  .textSecond {
+    font-size: 17px;
+  }
+
 }
 
 /* Portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 @media (min-width: 600px) {
-    .textMain {
-        font-size: 63px;
-    }
+  .textMain {
+    font-size: 63px;
+  }
 
-    .imageMain {
-        height: 550px;
-    }
+  .imageMain {
+    height: 550px;
+  }
 
-    .textSecond {
-        font-size: 20px;
-    }
+  .overlay {
+    top: 180px;
+  }
+
+  .textSecond {
+    font-size: 20px;
+  }
 }
 
 /* Tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width: 800px) {
-    .textMain {
-        font-size: 72px;
-    }
+  .textMain {
+    font-size: 72px;
+  }
 
-    .textSecond {
-        font-size: 23px;
-    }
+  .imageMain {
+    height: 600px;
+  }
+
+  .overlay {
+    top: 190px;
+  }
+
+  .textSecond {
+    font-size: 23px;
+  }
 }
 
 /* Big landscape tablets, laptops, and desktops */
 @media (min-width: 1025px) {
-    .textMain {
-        font-size: 81px;
-    }
+  .textMain {
+    font-size: 81px;
+  }
 
-    .textSecond {
-        font-size: 26px;
-    }
+  .imageMain {
+    height: 650px;
+  }
+
+  .overlay {
+    top: 190px;
+  }
+
+  .textSecond {
+    font-size: 26px;
+  }
 }
 
 /* hi-res laptops and desktops */
 @media (min-width: 1281px) {
-    .textMain {
-        font-size: 90px;
-    }
+  .textMain {
+    font-size: 90px;
+  }
 
-    .textSecond {
-        font-size: 29px;
-    }
+  .imageMain {
+    height: 700px;
+  }
+
+  .overlay {
+    top: 190px;
+  }
+
+  .textSecond {
+    font-size: 29px;
+  }
 }
 
 /* Large desktops (1920px and above) */
 @media (min-width: 1920px) {
-    .textMain {
-        font-size: 100px;
-    }
+  .textMain {
+    font-size: 100px;
+  }
 
-    .textSecond {
-        font-size: 32px;
-    }
+  .textSecond {
+    font-size: 32px;
+  }
 
-    .imageMain {
-        height: 700px;
-    }
+  .imageMain {
+    height: 700px;
+  }
 
-    .overlaySecond {
-        width: 40%;
-        top: 45%;
-    }
+  .overlay {
+    top: 240px;
+  }
+
 }
 
 /* Ultra-wide desktops (2560px and above) */
 @media (min-width: 2560px) {
-    .textMain {
-        font-size: 108px;
-    }
+  .textMain {
+    font-size: 108px;
+  }
 
-    .textSecond {
-        font-size: 35px;
-    }
+  .imageMain {
+    height: 750px;
+  }
+
+  .textSecond {
+    font-size: 35px;
+  }
 }
 
 /* 4K screens (3840px and above) */
 @media (min-width: 3840px) {
-    .textMain {
-        font-size: 116px;
-    }
+  .textMain {
+    font-size: 116px;
+  }
 
-    .textSecond {
-        font-size: 38px;
-    }
+  .imageMain {
+    height: 800px;
+  }
+
+  .textSecond {
+    font-size: 38px;
+  }
 }
