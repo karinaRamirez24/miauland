@@ -30,6 +30,10 @@
     gap: 10px;
 }
 
+.home__container-counter-img{
+    width: 50%;
+}
+
 
 
 /* --------------------------Responsive.-------------------------- */
