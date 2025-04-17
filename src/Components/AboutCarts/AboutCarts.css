@@ -1,4 +1,28 @@
+.aboutCarts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 45px 0px;
+}
+
+.aboutCarts.reverse {
+    flex-direction: row-reverse;
+}
+
 .aboutCarts__image{
-    width: 20px;
-    height: 20px;
+    width: 30%;
+    height: auto;
+}
+
+.aboutCarts__textContainer{
+    width: 60%;
+}
+
+.aboutCarts__textContainer-title{
+ font-size: 14px;
+ font-weight: bold;
+}
+
+.aboutCarts__textContainer-text{
+    font-size: 14px;
 }
