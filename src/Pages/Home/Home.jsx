@@ -3,7 +3,7 @@ import "./Home.css";
 import MainImage from "../../Components/MainImage/MainImage";
 import Cards from "../../Components/Cards/Cards";
 import imageHome from "../../Assets/imagenes/Home-cat.jpg";
-import homeCat from "../../Assets/imagenes/GatoPorcentaje.png";
+import homeCat from "../../Assets/imagenes/GatoInicio.png";
 const Home = () => {
     return (
         <div className="home">
