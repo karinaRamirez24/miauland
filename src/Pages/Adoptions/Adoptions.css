@@ -1,0 +1,92 @@
+.adoptions{
+    color: black;
+}
+
+.adoptions__steps-img{
+    width: 50px;
+    height: 50px;
+}
+
+.adoptions__container-steps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
+
+/* --------------------------Responsive.-------------------------- */
+
+/* Smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media (min-width: 320px) {
+    .adoptions__container {
+      padding: 40px 25px;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+  
+  /* Smartphones, Android phones, landscape iPhone */
+  @media (min-width: 480px) {
+    .adoptions__container {
+      padding: 40px 65px;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+  
+  /* Portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  @media (min-width: 600px) {
+    .adoptions__container {
+      padding: 40px 100px;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+  
+  /* Tablet, landscape iPad, lo-res laptops ands desktops */
+  @media (min-width: 800px) {
+    .adoptions__container {
+      padding: 40px 100px;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+  
+  /* Big landscape tablets, laptops, and desktops */
+  @media (min-width: 1025px) {
+    .adoptions__container {
+      padding: 40px 100px;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+  
+  /* hi-res laptops and desktops */
+  @media (min-width: 1281px) {
+    .adoptions__container {
+      padding: 86px 250px;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+  
+  /* Large desktops (1920px and above) */
+  @media (min-width: 1920px) {
+    .adoptions__container {
+      padding: 86px 373px;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+  
+  /* Ultra-wide desktops (2560px and above) */
+  @media (min-width: 2560px) {
+    .adoptions__container {
+      padding: 86px 450px;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+  
+  /* 4K screens (3840px and above) */
+  @media (min-width: 3840px) {
+    .adoptions__container {
+      padding: 100px 700px;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+  
