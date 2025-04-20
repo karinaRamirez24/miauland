@@ -25,6 +25,7 @@ const Adoptions = () => {
         <Container image={imageHome} numeration={1} text={"Abre tu corazón y deja que tu mejor amigo gatuno te elija a ti."}></Container>
         <Container image={imageHome} numeration={2} text={"Realiza tu formulario"}></Container>
         <Container image={imageHome} numeration={3} text={"Acude a tu cita. Nota: No olvides traer transportadora"}></Container>
+        <button className='adoptions__button'> Que empiece esta hermosa aventura </button>
       </div>
     </div>
   )
