@@ -66,7 +66,7 @@ function Header() {
         toggleMenuStyle(false);
         setMenuOpen(false);
         if (document.body) {
-            document.body.style.overflow = "auto";
+            // document.body.style.overflow = "auto";
         }
     };
 

@@ -1,79 +1,112 @@
+.contact {
+  color: black;
+}
 
-.contactUs{
-    color: black;
+.contact__container-map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 30px 0px;
+}
+
+.contact__container-map-iframe {
+  width: 100%;
+  border-radius: 20px;
+  height: 250px;
+}
+
+.contact__container-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 30px 0px;
+}
+
+.contact__icon {
+  width: 35px;
+  height: 35px;
+}
+
+.contact__container-address {
+  font-weight: normal;
+}
+
+.contact__container-address-bold {
+  font-weight: bold;
 }
 
 /* --------------------------Responsive.-------------------------- */
 
 /* Smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 @media (min-width: 320px) {
-    .contactUs__container {
-      padding: 40px 25px;
-      transition: all 0.4s ease-in-out;
-    }
+  .contact__container {
+    padding: 40px 25px;
+    transition: all 0.4s ease-in-out;
   }
-  
-  /* Smartphones, Android phones, landscape iPhone */
-  @media (min-width: 480px) {
-    .contactUs__container {
-      padding: 40px 65px;
-      transition: all 0.4s ease-in-out;
-    }
+}
+
+/* Smartphones, Android phones, landscape iPhone */
+@media (min-width: 480px) {
+  .contact__container {
+    padding: 40px 65px;
+    transition: all 0.4s ease-in-out;
   }
-  
-  /* Portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-  @media (min-width: 600px) {
-    .contactUs__container {
-      padding: 40px 100px;
-      transition: all 0.4s ease-in-out;
-    }
+}
+
+/* Portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (min-width: 600px) {
+  .contact__container {
+    padding: 40px 100px;
+    transition: all 0.4s ease-in-out;
   }
-  
-  /* Tablet, landscape iPad, lo-res laptops ands desktops */
-  @media (min-width: 800px) {
-    .contactUs__container {
-      padding: 40px 100px;
-      transition: all 0.4s ease-in-out;
-    }
+}
+
+/* Tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width: 800px) {
+  .contact__container {
+    padding: 40px 100px;
+    transition: all 0.4s ease-in-out;
   }
-  
-  /* Big landscape tablets, laptops, and desktops */
-  @media (min-width: 1025px) {
-    .contactUs__container {
-      padding: 40px 100px;
-      transition: all 0.4s ease-in-out;
-    }
+}
+
+/* Big landscape tablets, laptops, and desktops */
+@media (min-width: 1025px) {
+  .contact__container {
+    padding: 40px 100px;
+    transition: all 0.4s ease-in-out;
   }
-  
-  /* hi-res laptops and desktops */
-  @media (min-width: 1281px) {
-    .contactUs__container {
-      padding: 86px 250px;
-      transition: all 0.4s ease-in-out;
-    }
+}
+
+/* hi-res laptops and desktops */
+@media (min-width: 1281px) {
+  .contact__container {
+    padding: 86px 250px;
+    transition: all 0.4s ease-in-out;
   }
-  
-  /* Large desktops (1920px and above) */
-  @media (min-width: 1920px) {
-    .contactUs__container {
-      padding: 86px 373px;
-      transition: all 0.4s ease-in-out;
-    }
+}
+
+/* Large desktops (1920px and above) */
+@media (min-width: 1920px) {
+  .contact__container {
+    padding: 86px 373px;
+    transition: all 0.4s ease-in-out;
   }
-  
-  /* Ultra-wide desktops (2560px and above) */
-  @media (min-width: 2560px) {
-    .contactUs__container {
-      padding: 86px 450px;
-      transition: all 0.4s ease-in-out;
-    }
+}
+
+/* Ultra-wide desktops (2560px and above) */
+@media (min-width: 2560px) {
+  .contact__container {
+    padding: 86px 450px;
+    transition: all 0.4s ease-in-out;
   }
-  
-  /* 4K screens (3840px and above) */
-  @media (min-width: 3840px) {
-    .contactUs__container {
-      padding: 100px 700px;
-      transition: all 0.4s ease-in-out;
-    }
+}
+
+/* 4K screens (3840px and above) */
+@media (min-width: 3840px) {
+  .contact__container {
+    padding: 100px 700px;
+    transition: all 0.4s ease-in-out;
   }
-  
+}

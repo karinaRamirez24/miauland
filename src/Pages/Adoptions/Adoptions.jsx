@@ -28,7 +28,7 @@ const Adoptions = () => {
         <button className='adoptions__button'> Que empiece esta hermosa aventura </button>
       </div>
     </div>
-  )
+  ) 
 }
 
 export default Adoptions
