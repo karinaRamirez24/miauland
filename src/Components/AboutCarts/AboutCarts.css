@@ -1,4 +1,4 @@
-.aboutCarts{
+.aboutCarts {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -9,20 +9,105 @@
     flex-direction: row-reverse;
 }
 
-.aboutCarts__image{
+.aboutCarts__image {
     width: 30%;
     height: auto;
 }
 
-.aboutCarts__textContainer{
+.aboutCarts__textContainer {
     width: 60%;
 }
 
-.aboutCarts__textContainer-title{
- font-size: 14px;
- font-weight: bold;
+.aboutCarts__textContainer-title {
+    font-size: 14px;
+    font-weight: bold;
 }
 
-.aboutCarts__textContainer-text{
+.aboutCarts__textContainer-text {
     font-size: 14px;
+}
+
+
+
+/* --------------------------Responsive.-------------------------- */
+
+/* Smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media (min-width: 320px) {
+
+    .aboutCarts__textContainer-text,
+    .aboutCarts__textContainer-title {
+        font-size: 14px;
+    }
+}
+
+/* Smartphones, Android phones, landscape iPhone */
+@media (min-width: 480px) {
+
+    .aboutCarts__textContainer-text,
+    .aboutCarts__textContainer-title {
+        font-size: 17px;
+    }
+}
+
+/* Portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (min-width: 600px) {
+
+    .aboutCarts__textContainer-text,
+    .aboutCarts__textContainer-title {
+        font-size: 20px;
+    }
+}
+
+/* Tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width: 800px) {
+
+    .aboutCarts__textContainer-text,
+    .aboutCarts__textContainer-title {
+        font-size: 23px;
+    }
+}
+
+/* Big landscape tablets, laptops, and desktops */
+@media (min-width: 1025px) {
+
+    .aboutCarts__textContainer-text,
+    .aboutCarts__textContainer-title {
+        font-size: 26px;
+    }
+}
+
+/* hi-res laptops and desktops */
+@media (min-width: 1281px) {
+
+    .aboutCarts__textContainer-text,
+    .aboutCarts__textContainer-title {
+        font-size: 29px;
+    }
+}
+
+/* Large desktops (1920px and above) */
+@media (min-width: 1920px) {
+
+    .aboutCarts__textContainer-text,
+    .aboutCarts__textContainer-title {
+        font-size: 32px;
+    }
+}
+
+/* Ultra-wide desktops (2560px and above) */
+@media (min-width: 2560px) {
+
+    .aboutCarts__textContainer-text,
+    .aboutCarts__textContainer-title {
+        font-size: 35px;
+    }
+}
+
+/* 4K screens (3840px and above) */
+@media (min-width: 3840px) {
+
+    .aboutCarts__textContainer-text,
+    .aboutCarts__textContainer-title {
+        font-size: 38px;
+    }
 }

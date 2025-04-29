@@ -38,20 +38,20 @@ const AboutUs = () => {
           </h3>
         </div>
 
-        <div className="aboutUs-home__conteiner-founder">
-          <h1 className="aboutUs-home__conteiner-founder-name">Sandra N</h1>
-          <h2 className="aboutUs-home__conteiner-founder-subtitle">Fundadora</h2>
-          <img className="aboutUs-home__conteiner-founder-photo" src={imageHome} alt="" />
-          <h3 className="aboutUs-home__conteiner-founder-history">
+        <div className="aboutUs-home__container-founder">
+          <h1 className="aboutUs-home__container-founder-name">Sandra N</h1>
+          <h2 className="aboutUs-home__container-founder-subtitle">Fundadora</h2>
+          <img className="aboutUs-home__container-founder-photo" src={imageHome} alt="" />
+          <h3 className="aboutUs-home__container-founder-history">
             it is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layaut, The ponit
             of using Lorem ipsumn is that is has a more-or-les norm distribution
             of letters.
           </h3>
         </div>
-        <div className= "aboutUs-home__conteiner-quest">
-          <h1 className="aboutUs-home__conteiner-quest-title">Maullido al rescate</h1>
-          <h3 className="aboutUs-home__conteiner-quest-text">
+        <div className= "aboutUs-home__container-quest">
+          <h1 className="aboutUs-home__container-quest-title">Maullido al rescate</h1>
+          <h3 className="aboutUs-home__container-quest-text">
             Rescatar a un gatito requiere ternura, compromiso y unos simples
             pasos para transformar vida.
           </h3>
@@ -61,8 +61,8 @@ const AboutUs = () => {
           <AboutCarts image={imageHome} title={"4.- Revise el estado de salud del gato"} conten={"Lleva al gato a un veterinario para una revisión completa."} order={2} />
           <AboutCarts image={imageHome} title={"5.- Refugio o adopción"} conten={"Lo llevaremos al refigio de confianza donde lo recibimos con amor."} order={1} />
         </div>
-        <h1 className="aboutUs-home__conteiner-conclusion">
-          <span className="aboutUs-home__conteiner-conclusion-bold">¡Mision Cumplida!</span> Ya sea en un refugio con una familia,
+        <h1 className="aboutUs-home__container-conclusion">
+          <span className="aboutUs-home__container-conclusion-bold">¡Mision Cumplida!</span> Ya sea en un refugio con una familia,
           tiene una segunda oportunidad.
         </h1>
       </div>
